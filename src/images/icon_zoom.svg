@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="184" height="63.638" viewBox="0 0 184 63.638">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Pfad_3" data-name="Pfad 3" d="M6.932-169.673a29.694,29.694,0,0,0,29.68,29.68,29.7,29.7,0,0,0,29.681-29.68,29.7,29.7,0,0,0-29.681-29.681A29.7,29.7,0,0,0,6.932-169.673Z" transform="translate(-6.932 199.354)" fill="none" clip-rule="evenodd"/>
+        </clipPath>
+        <linearGradient id="linear-gradient" x1="0.034" y1="0.173" x2="0.966" y2="0.173" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3f6eb3"/>
+            <stop offset="0.1" stop-color="#3875b9"/>
+            <stop offset="0.2" stop-color="#327cbf"/>
+            <stop offset="0.3" stop-color="#2c83c4"/>
+            <stop offset="0.4" stop-color="#258aca"/>
+            <stop offset="0.5" stop-color="#1f91cf"/>
+            <stop offset="0.6" stop-color="#1998d5"/>
+            <stop offset="0.7" stop-color="#129fda"/>
+            <stop offset="0.8" stop-color="#0ca6e0"/>
+            <stop offset="0.9" stop-color="#06ade5"/>
+            <stop offset="1" stop-color="#00b4eb"/>
+        </linearGradient>
+        <clipPath id="clip-path-2">
+            <path id="Pfad_5" data-name="Pfad 5" d="M285.922-150.548v8.653c-.009.027-.02.052-.029.079h.029v18.844h1.77a3.95,3.95,0,0,0,3.95-3.95v-14.61a1.5,1.5,0,0,1,.3-.895,6.039,6.039,0,0,1,4.837-2.5,6.067,6.067,0,0,1,4.974,2.687,1.516,1.516,0,0,1,.275.859l.036,14.463a3.95,3.95,0,0,0,3.951,3.95h1.77l.065-18.414a1.514,1.514,0,0,1,.275-.857,6.068,6.068,0,0,1,4.974-2.687,6.067,6.067,0,0,1,4.973,2.685,1.51,1.51,0,0,1,.275.862v14.592a3.95,3.95,0,0,0,3.95,3.95h1.77v-18.265a2.816,2.816,0,0,0-.194-1.01,11.6,11.6,0,0,0-10.775-8,11.1,11.1,0,0,0-8.159,3.649,11.1,11.1,0,0,0-8.16-3.649,10.88,10.88,0,0,0-6.19,1.947,3.949,3.949,0,0,0-3.623-2.379ZM257.388-136.77a13.777,13.777,0,0,0,13.778,13.777,13.777,13.777,0,0,0,13.778-13.777,13.778,13.778,0,0,0-13.778-13.778A13.778,13.778,0,0,0,257.388-136.77Zm5.484,0a8.294,8.294,0,0,1,8.294-8.294,8.294,8.294,0,0,1,8.294,8.294,8.294,8.294,0,0,1-8.294,8.294A8.294,8.294,0,0,1,262.872-136.77Zm-34.292,0a13.777,13.777,0,0,0,13.777,13.777,13.777,13.777,0,0,0,13.778-13.777,13.778,13.778,0,0,0-13.778-13.778A13.777,13.777,0,0,0,228.58-136.77Zm5.484,0a8.294,8.294,0,0,1,8.294-8.294,8.294,8.294,0,0,1,8.294,8.294,8.294,8.294,0,0,1-8.294,8.294A8.294,8.294,0,0,1,234.064-136.77Zm-30.955-13.778a.554.554,0,0,0-.555.554v1.15a4.016,4.016,0,0,0,4.015,4.015h13.795l-14.81,14.808a5.225,5.225,0,0,0-1.53,3.694,4.016,4.016,0,0,0,4.015,4.016h22.01v-1.77a3.95,3.95,0,0,0-3.95-3.95H211.782l16.8-16.8v-1.77a3.95,3.95,0,0,0-3.951-3.95Z" transform="translate(-202.554 150.548)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-2" x1="0.286" y1="0.67" x2="0.73" y2="0.67" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00b4eb"/>
+            <stop offset="0.1" stop-color="#06ade5"/>
+            <stop offset="0.2" stop-color="#0ca6e0"/>
+            <stop offset="0.3" stop-color="#129fda"/>
+            <stop offset="0.4" stop-color="#1998d5"/>
+            <stop offset="0.5" stop-color="#1f91cf"/>
+            <stop offset="0.6" stop-color="#258aca"/>
+            <stop offset="0.7" stop-color="#2c83c4"/>
+            <stop offset="0.8" stop-color="#327cbf"/>
+            <stop offset="0.9" stop-color="#3875b9"/>
+            <stop offset="1" stop-color="#3f6eb3"/>
+        </linearGradient>
+    </defs>
+    <g id="Gruppe_6" data-name="Gruppe 6" transform="translate(0 206.285)">
+        <path id="Pfad_1" data-name="Pfad 1" d="M31.819-206.285a31.621,31.621,0,0,0-12.386,2.5A31.705,31.705,0,0,0,9.32-196.966,31.718,31.718,0,0,0,2.5-186.852,31.624,31.624,0,0,0,0-174.466a31.62,31.62,0,0,0,2.5,12.386A31.716,31.716,0,0,0,9.32-151.967a31.71,31.71,0,0,0,10.113,6.818,31.622,31.622,0,0,0,12.386,2.5,31.623,31.623,0,0,0,12.386-2.5,31.717,31.717,0,0,0,10.113-6.818,31.71,31.71,0,0,0,6.818-10.114,31.615,31.615,0,0,0,2.5-12.386,31.619,31.619,0,0,0-2.5-12.386,31.712,31.712,0,0,0-6.818-10.113A31.712,31.712,0,0,0,44.2-203.784a31.623,31.623,0,0,0-12.386-2.5" transform="translate(0)" fill="#fff"/>
+        <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(2.138 -204.147)" clip-path="url(#clip-path)">
+            <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(-2.138 61.5) rotate(-90)">
+                <path id="Pfad_2" data-name="Pfad 2" d="M63.638,0V184H0V0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+            </g>
+        </g>
+        <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(62.487 -189.09)" clip-path="url(#clip-path-2)">
+            <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(-62.487 46.443) rotate(-90)">
+                <path id="Pfad_4" data-name="Pfad 4" d="M63.638,0V184H0V0Z" transform="translate(0)" fill="url(#linear-gradient-2)"/>
+            </g>
+        </g>
+        <path id="Pfad_6" data-name="Pfad 6" d="M67.4-117.2H47.579a6.652,6.652,0,0,1-6.652-6.652v-13.592a1.418,1.418,0,0,1,1.419-1.418h19.82a6.652,6.652,0,0,1,6.652,6.652v13.592A1.419,1.419,0,0,1,67.4-117.2" transform="translate(-28.301 -46.621)" fill="#fff"/>
+        <path id="Pfad_7" data-name="Pfad 7" d="M134.254-122.536l8.738,6.212a.951.951,0,0,0,.951-.951v-19.067a.951.951,0,0,0-.951-.951l-8.738,6.212Z" transform="translate(-92.837 -47.708)" fill="#fff"/>
+    </g>
+</svg>

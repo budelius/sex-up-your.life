@@ -1,0 +1,384 @@
+.theta-scroll-container {
+    overflow-y: scroll;
+    float: right;
+    height: 100%;
+}
+
+.theta-static-container {
+    background: black;
+    color: white;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .theta-static-container {
+        height: auto;
+    }
+    .theta-scroll-container {
+        height: auto;
+    }
+}
+
+/** phone landscape */
+@media only screen and (max-height: 430px) {
+    .theta-static-container {
+        min-height: 1000px;
+    }
+    .theta-scroll-container {
+      min-height: 1000px;
+    }
+}
+.theta-header {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.theta-header h1 {
+    font-family: 'Spartan MB', sans-serif;
+    font-size: 4.375em;
+    font-weight: bold;
+    color: white;
+}
+
+.theta-header .name {
+    font-family: 'Spartan MB', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.theta-spacer {
+    margin-top: 15%;
+}
+
+.theta-ticket {
+  margin-top: 20px !important;
+  overflow: hidden;
+  cursor: pointer;
+  border:2px solid black;
+}
+.theta-ticket:HOVER {
+  border:2px solid #D4AF37;
+}
+
+.round-avatar {
+  border-radius:100%;
+  border:1px solid white;
+  height:139px;
+  width:139px;
+}
+
+.theta-ticket.standard {
+  background-color: #D4AF37;
+  border-radius: 26px;
+  width:90%;
+  max-width: 392px;
+  height: 146px;
+  margin: 0 auto;
+}
+
+.theta-ticket .grid-x {
+    height: 100%;
+}
+
+.theta-ticket .event-details {
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 1.988em;
+}
+@media only screen and (max-width: 600px) {
+    .theta-ticket .event-details {
+        text-align: left;
+        padding-top: 12px;
+        padding-left: 12px;
+    }
+}
+/** ipad pro portrait special case **/
+@media only screen and (orientation: portrait) and (max-width: 1200px) and (min-width: 1024px) {
+    .theta-ticket .event-details {
+      padding-top: 12px;
+      padding-left: 12px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .theta-ticket-vscroller {
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .theta-center-on-mobile {
+        text-align: center;
+    }
+}
+
+.theta-ticket .event-details .event-name {
+    font-size: 1.125em;
+}
+
+.theta-ticket .event-details .ticket-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.563em;
+    line-height: 29px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+    .theta-ticket .event-details .ticket-name {
+        font-size: 1.6em;
+        line-height: 35px;
+        margin-top:0;
+    }
+}
+
+.theta-ticket-price-container {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.theta-ticket-price-container .background {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 26px;
+    padding-top: 10px;
+    text-align: center;
+}
+.theta-ticket-price-container .background.no-countdown {
+    padding-top: 30px;
+}
+
+.theta-ticket-price-container .background .price {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.theta-ticket-price-container .background .countdown {
+    color: #D4AF37;
+    font-size: 25px;
+}
+
+/** ipad portrait special case **/
+@media only screen and (orientation: portrait) and (max-width: 1200px) and (min-width: 1024px) {
+  .theta-ticket-price-container .background .countdown {
+    font-size: 25px;
+  }
+}
+/** ipad landscape special case **/
+@media only screen and (orientation: landscape) and (max-width: 1100px) and (min-width: 1024px) {
+  .theta-ticket-price-container .background .countdown {
+    font-size: 25px;
+  }
+}
+.theta-actions {
+    margin-bottom: 20px;
+}
+
+.theta-actions-img {
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  height: 48px;
+  width: 48px;
+  opacity: .85;
+}
+@media only screen and (max-width: 1100px) {
+  .theta-actions-img {
+    height: 38px;
+    width: 38px;
+  }
+}
+.theta-actions-img:HOVER {
+  opacity: 1;
+}
+
+.theta-description-container {
+  background-color: #EBC91E;
+  border:1px solid #D4AF37;
+  padding: 25px 15px 15px;
+  font-family: Vollkorn, serif;
+  margin-top:15px;
+}
+.theta-description-container .title {
+  font-weight:bold;
+  color:black;
+  font-size:24px;
+}
+.theta-description-container .subtitle {
+  color:white;
+  font-size:20px;
+}
+.theta-description-container .text {
+  color:black;
+  margin-top:20px;
+  font-size:16px;
+}
+
+.theta-week {
+  font-size:35px;
+  margin-top:30px;
+  margin-bottom:15px;
+  font-family: "Spartan", "Spartan MB", sans-serif;
+}
+.theta-week-container {
+  padding:10px;
+  border:1px solid #D4AF37;
+  height:100%;
+  margin: 5px;
+  font-family: Vollkorn, serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .theta-mobile-cell-padding {
+    padding-bottom: 10px;
+  }
+}
+.theta-week-container .date {
+  color:#D4AF37;
+  margin-bottom:15px;
+}
+
+.theta-content {
+    padding-top: 5%;
+    padding-right: 11em;
+    padding-left: 11em;
+}
+
+@media only screen and (max-width: 600px) {
+    .theta-content {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 1100px) and (min-width: 1024px) {
+    .theta-content {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+}
+@media only screen and (orientation: portrait) and (max-width: 1200px) and (min-width: 1024px) {
+    .theta-content {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+}
+
+.theta-content .description {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Vollkorn, serif;
+}
+
+.theta-content .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.theta-content .link {
+    color: #EBC91E;
+    font-size: 20px;
+}
+
+.theta-content .splitter {
+    border-top: 1px solid #EBC91E;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.imprint {
+    text-align: center;
+    color: #EBC91E;
+    margin-top: 10%;
+    margin-bottom: 80px;
+}
+
+.imprint a {
+    color: #EBC91E;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.theta-full-image {
+    width: 100%;
+}
+
+/**
+------------------------------------------------
+SUBPAGE
+------------------------------------------------
+ */
+
+.theta-subpage-header {
+  background-color: black;
+  min-height: 100px;
+  font-size: 2.375em;
+  color:white;
+  padding-top:25px;
+}
+.theta-subpage-footer {
+  background-color: black;
+  color:white;
+  font-size:14px;
+  text-align: center;
+}
+.theta-subpage-footer .imprint a{
+  color:white;
+}
+.theta-subpage-footer .imprint a:HOVER{
+  text-decoration: underline;
+}
+.theta-subpage-back {
+  min-height: 40px;
+  color:black;
+}
+.theta-subpage-back a {
+  cursor: pointer;
+}
+.theta-subpage-back a:HOVER {
+  text-decoration: underline;
+}
+.theta-spacer-sm {
+  margin-top: 5%;
+}
+.theta-spacer-footer {
+  margin-top: 50px;
+}
+
+
+.theta-buy-static {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  height: 60px;
+  width:100%;
+  background-color:black;
+  padding:10px;
+  text-align:right;
+}
+.theta-buy-static .button {
+  background-color: #e9a832;
+  border-radius: 26px;
+}
+.theta-buy-static .text {
+  color:white;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+@import 'settings';
+
+$button-palette: map-merge($foundation-palette, (
+  gold: #D4AF37,
+));
+
+$button-color: $white;
+$button-color-alt: $white;
+
+@import '~foundation-sites/scss/foundation';
+
+@include foundation-everything;
+
